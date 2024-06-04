@@ -46,7 +46,7 @@ Robby is a robotic project aimed at automating the process of identifying and pi
    ```sh
    pip install RPi.GPIO requests picamera pillow
 
-##Usage
+## Usage
 1. **Wiring:**
 
   -Connect the ultrasonic sensor to the GPIO pins as defined in the code (TRIG to pin 38, ECHO to pin 36).
@@ -63,7 +63,7 @@ Robby is a robotic project aimed at automating the process of identifying and pi
   cd <repository-directory>
   ```
 
-##Code Explanation
+## Code Explanation
 
 The robby.py script initializes the robot, sets up the GPIO pins, and defines the following functions:
 
@@ -78,15 +78,15 @@ The robby.py script initializes the robot, sets up the GPIO pins, and defines th
 
 The main loop captures an image, classifies it, checks the distance to the nearest object, and decides whether to move towards the trash or take a random turn.
 
-##Future Improvements
+## Future Improvements
 -Implement better navigation algorithms to avoid obstacles more efficiently.
 -Integrate a more sophisticated trash collection mechanism.
 -Enhance the image classification model for higher accuracy.
 
-##Acknowledgements
+## Acknowledgements
 -The pre-trained garbage classification model is provided by Hugging Face.
 -Inspired by various robotics and machine learning projects available online.
 
-##License
+## License
 -This project is licensed under the MIT License - see the LICENSE file for details.
 
