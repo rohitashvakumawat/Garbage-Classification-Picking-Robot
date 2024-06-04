@@ -67,26 +67,26 @@ Robby is a robotic project aimed at automating the process of identifying and pi
 
 The robby.py script initializes the robot, sets up the GPIO pins, and defines the following functions:
 
--forward(sec): Moves the robot forward for a specified number of seconds.
--backward(sec): Moves the robot backward for a specified number of seconds.
--lturn(sec): Turns the robot left for a specified number of seconds.
--rturn(sec): Turns the robot right for a specified number of seconds.
--pick(): Controls the servo motor to pick up the trash.
--get_distance(): Measures the distance to an object using the ultrasonic sensor.
--query_image(image): Sends the captured image to the Hugging Face API for classification.
--capture_image(): Captures an image using the PiCamera.
+- forward(sec): Moves the robot forward for a specified number of seconds.
+- backward(sec): Moves the robot backward for a specified number of seconds.
+- lturn(sec): Turns the robot left for a specified number of seconds.
+- rturn(sec): Turns the robot right for a specified number of seconds.
+- pick(): Controls the servo motor to pick up the trash.
+- get_distance(): Measures the distance to an object using the ultrasonic sensor.
+- query_image(image): Sends the captured image to the Hugging Face API for classification.
+- capture_image(): Captures an image using the PiCamera.
 
 The main loop captures an image, classifies it, checks the distance to the nearest object, and decides whether to move towards the trash or take a random turn.
 
 ## Future Improvements
--Implement better navigation algorithms to avoid obstacles more efficiently.
--Integrate a more sophisticated trash collection mechanism.
--Enhance the image classification model for higher accuracy.
+- Implement better navigation algorithms to avoid obstacles more efficiently.
+- Integrate a more sophisticated trash collection mechanism.
+- Enhance the image classification model for higher accuracy.
 
 ## Acknowledgements
--The pre-trained garbage classification model is provided by Hugging Face.
--Inspired by various robotics and machine learning projects available online.
+- The pre-trained garbage classification model is provided by Hugging Face.
+- Inspired by various robotics and machine learning projects available online.
 
 ## License
--This project is licensed under the MIT License - see the LICENSE file for details.
+- This project is licensed under the MIT License - see the LICENSE file for details.
 
