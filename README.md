@@ -2,6 +2,8 @@
 
 Robby is a robot designed to identify, move towards, and pick up trash using a Raspberry Pi, ultrasonic sensor, camera, and servo motor. It uses a pre-trained garbage classification model from Hugging Face for image recognition.
 
+![Card](robot_front.jpeg)
+
 ## Table of Contents
 
 - [Introduction](#introduction)
